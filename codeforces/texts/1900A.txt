@@ -1,0 +1,4 @@
+basically this is a easy problem based on arrayfirst of all we would have given a row of cells in which some cells are empty and some cells are blocked we cant do anythign with the blocked cell b ut we cen fill the empty cekll with wate row
+OPERATIONS WHICH WE C AN PERFORM 
+       1>WE CAN FILL AN EMPTY CELL DIRECTLY 
+       2>IF A CELL OF ITH INDEX IS EMPTY AND ANF I-1 AND 1+1 BOTH ARE EMPTY then we would return dirctly 2

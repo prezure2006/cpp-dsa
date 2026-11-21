@@ -1,0 +1,7 @@
+b1 +b2 = b2+b3;
+
+this problem says that the sum of adjacent element is should be same but the trick here is 
+if an array has 1 distinct elemt the array is good 
+
+
+

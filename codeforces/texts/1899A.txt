@@ -1,0 +1,17 @@
+so there are 2 players 1 and 2 the game is if your number div by 3 you won but you have too add substract integers bef0ore movin git 
+now first p1 will move then p2 like lets we have a number 6 
+P1 DID +-1 THE NUMBER BECOMES 5 AND 7  IF IT IS DIVIDED BY 3 NO THEN 
+P2 MOVES HE LAS DID +-1 6,6 IT IS DIVISIBLE BY 1 SO P2 WON 
+
+
+
+TC 2 
+
+lets say we ahve number 84
+P1 DID +- 1  NUMBER BECOME 83 AND 85 NOT DIVISIBLE 
+P2 DID +- 1 AND THEN 84 84 AGAIN P2 WON 
+
+
+
+
+//FINA ANSWER IF WE HAVE A NUMBER DIVISIBL BY 3 AS A INPUT THEN FOR SURE P2 WILL WIN BECUASE P1 HAVE TO +- 1 AND AFTER THAT THE NUMBER WILL NOT BE DIVISIBLE BY 3 

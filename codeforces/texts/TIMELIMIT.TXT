@@ -1,0 +1,70 @@
+What does "Time Limit = 1 second" mean?
+
+When you submit your code, Codeforces runs it on their computer.
+
+If your code takes more than about 1 second, it gets:
+
+❌ Time Limit Exceeded (TLE)
+
+If it finishes before the limit:
+
+✅ Accepted
+
+----------------------------------------------------------------
+Why do people say 10⁸ operations per second?
+
+This is a rule of thumb, not an exact law.
+
+Competitive programmers assume that a modern judge can execute roughly:
+
+100,000,000 operations
+----------------------------------------------------------------
+Suppose
+
+for(int i = 0; i < 100; i++)
+{
+    cout << i;
+}
+
+How many iterations?
+
+100
+
+100 is tiny.
+
+Runs instantly.
+----------------------------------------------------------------
+Why do we study Big O?
+
+Suppose
+
+n = 100000
+O(n)
+for(int i=0;i<n;i++)
+
+Iterations
+
+100000
+
+Very easy.
+----------------------------------------------------------------
+| Complexity |     Operations |
+| ---------- | -------------: |
+| O(1)       |              1 |
+| O(log n)   |            ~17 |
+| O(n)       |        100,000 |
+| O(n log n) |     ~1,700,000 |
+| O(n²)      | 10,000,000,000 |
+
+----------------------------------------------------------------
+A trick every competitive programmer uses
+
+When you see the constraints, think like this:
+|         n | Usually acceptable |
+| --------: | ------------------ |
+|        10 | Anything           |
+|       100 | O(n³) or O(n²)     |
+|     1,000 | O(n²)              |
+|    10,000 | O(n log n)         |
+|   100,000 | O(n log n) or O(n) |
+| 1,000,000 | O(n)               |

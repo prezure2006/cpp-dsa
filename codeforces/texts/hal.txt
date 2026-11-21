@@ -1,0 +1,24 @@
+#you will have a array from whcih you can take ou a sub array of n size 
+youwill also have a vraible k will will be always K which will be the atmost no of elements in the subarray
+then we have to check that we can sort that sub array in increasing order/non decresing order  or not ?
+if we can sort we print yes else no 
+ANALYSIS
+TOTAL 100 TEST CASES 
+
+"IN 1 SEC WE CAN HOLD 10^8 OPS "
+FOR EACH TEST CASES WE REQUIRE 10^6 OPS
+
+/////////ARRAY WE HAVE TWO CASES 
+SORTED -IF ITS ALREADY SORTED WE JSUT HAVE TO TAKE OUT THE SUB ARRAY AND PRINT YES 
+
+WHAT IF ITS UNSORTED 
+IT ALSO HAS 2 CASES -->
+                       when k =1 ;
+                       we can only take sub-araay of size 1 
+                       else k>1
+                       ex k =2 (always yes)
+                       arr = {3,5,7,6}
+                       we can select atmost 2 elements and sort 
+                       the above arrav is sortable
+                       for k >2 liken k <=3 we can take k either 0 or 1 or 2 or 3 so will will take k =2 and slovwe the problem 
+ANSWER WOULD BE 1 IN 2 CASS EITHER THE ARRAY IS ALREADY SORTED OR THE ARRAY AND IS UNSORTED AND K>1 WHOLE NUMBERS 
