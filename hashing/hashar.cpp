@@ -36,3 +36,4 @@ int main()
     
     return 0;
 }
+// Tc is reduced bcz multi is more than addition in tc
