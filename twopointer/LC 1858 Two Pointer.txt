@@ -1,0 +1,33 @@
+﻿Two pointer substring:-    LC (1358)
+
+Given a string s consisting only of characters a, b and c.
+Return the number of substrings containing at least one occurrence of all these characters a, b and c.
+
+
+Solution link:-https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/submissions/2200294954
+
+
+
+
+Approaches :
+
+
+Brute force—
+1>Generate All the substring
+2>Check abc present or not if yes increase the count of the answer
+3> return ans 
+
+
+
+
+Better—
+
+1> Like if we need to find the substring with every character given in it we do two pointer and sliding window 
+
+2> no of substring with having the required character is n-r n is the size of string and r is the rightmost point of the window.
+
+3> after finding a window decrease the count of the left most character and increate the size of window until you find the window again with the upcoming character 
+
+4> add this to the answer and return .
+TC – O(n).
+Sc – O(1).
