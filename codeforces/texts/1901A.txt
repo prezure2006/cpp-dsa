@@ -1,9 +1,0 @@
-basically it tells about a number line roads and then on that i ma at point 0 and my cart hasb maximum possible fuel i have to travel form
-0 to x and then agaimn 0 so what are the no of 
-
-
-to calculate minimum possible vol gas through which we can travel form 0 to x and then again 0 
-___________________________________________//numberline 
-                    '0                'x     // starting and ending point 
-                    ---------------->
-                    <---------------
