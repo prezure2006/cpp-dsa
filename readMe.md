@@ -10,6 +10,12 @@ Code Story With mik
 Strivers
 Kumar K Amazon
 
+## Important Concepts for cp
+
+- Prefix Sum
+- Two Pointer
+-
+
 ## Topics Covered 2025-2026
 
 [x] Basics And hashing
