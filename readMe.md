@@ -26,10 +26,11 @@ Kumar K Amazon
 [x] Recursion
 [x] Linked List
 [x] Bit manipulation
-[] OOPS
-[] STL
 [] Greedy Algorithms
 [] Two pointer and Sliding Window
+[] OOPS
+[] STL
+
 [] Stack and Queue
 
 ## Timeline
@@ -37,5 +38,15 @@ Kumar K Amazon
 2025-2026
 
 Become proficient in the above topics theory and different kinds of problems practice on platforms and aslo start cp learning topic.
+
+TempLate for solving problems
+
+## Question name
+
+- **Problem:** one-line summary
+- **Idea:** why greedy works (sort by value/weight, take the best first)
+- **Code:** Code
+- **Mistakes I made:** Mistakes i did
+- **Time/Space:** O(n log n) / O(n)
 
 ### Problems Done more than 200+ on different platforms
